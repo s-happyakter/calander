@@ -1,0 +1,41 @@
+.calander{
+background-color: rgb(247, 242, 242);
+display:grid;
+grid-template-columns:repeat(7, 50px) ;
+grid-template-rows:repeat(6,50px) ;
+row-gap: 20px;
+column-gap:20px ;
+justify-content: center;
+align-items: center;
+
+}
+
+
+.cal-sectiox{
+height: 100vh;
+width: 100%;
+background-color: rgb(161, 223, 223);
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.date{
+ background-color: blueviolet;
+ padding: 10px;
+ border-radius:5px ;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+
+}
+.day{
+    background-color: rgb(177, 132, 219);
+    padding: 10px;
+    border-radius:5px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+
+}
